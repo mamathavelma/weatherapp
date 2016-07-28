@@ -1,0 +1,47 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background-color: #222222;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-width: 320px;
+}
+
+#city {
+  margin-top: 5%;
+  text-shadow: 1px 2px 1px #333333;
+  font-size: 2em;
+}
+
+#temperature {
+  font-size: 3em;
+  text-shadow: 2px 4px 2px #333333;
+}
+
+#results {
+  margin-bottom: 1.5em;
+}
+
+#condition,
+#wind-speed {
+  display: inline-block;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px #333333;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  padding: 1.3em;
+  margin: .5em;
+  background-color: rgba(147, 175, 196, .4);
+  box-shadow: .2em .2em .2em #222222;
+  min-width: 10em;
+  min-height: 6em;
+}
